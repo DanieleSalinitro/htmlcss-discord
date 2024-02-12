@@ -30,6 +30,7 @@ body{
 
 h1 {
     font-size: 3em;
+    font-weight: 900;
 }
 
 h2{
@@ -56,8 +57,20 @@ header{
 }
 
 #hero{
-    min-height: 800px;
     background-color: var(--color-header-bg);
+}
+
+#hero img, #hero .container{
+    width: 100%;
+}
+
+.jumbo-text{
+    width: 55%;
+    padding-right: 160px;
+}
+
+.jumbo-image{
+    width: 45%;
 }
 
 header nav li a, header nav a{
@@ -69,11 +82,21 @@ header nav.container{
 }
 
 /* main */
+.video-youtube{
+    width: 100%;
+}
+
+iframe{
+    min-width: 60%;
+    min-height: 410px;
+    border-radius: 20px;
+}
+
 .section-bg{
     background-color: var(--color-section-bg);
 }
 .left{
-    width: 60%;
+    width: 50%;
 }
 
 .left img{
@@ -81,7 +104,7 @@ header nav.container{
 }
 
 .right{
-    width: 40%;
+    width: 50%;
     padding: 3% 5%;
 }
 
@@ -153,11 +176,11 @@ footer ul li{
 }
 
 .space-down{
-    padding-bottom: 35px;
+    padding-bottom: 50px;
 }
 
 .space-top{
-    padding-top: 60px;
+    padding-top: 50px;
 }
 
 .space-right{
@@ -224,14 +247,4 @@ footer ul li{
 
 .bt-color-primary{
     color: var(--color-primary);
-}
-
-.wave{
-    height: 100px;
-    filter: opacity(0.04);
-    background-image: url(../img/wave.svg);
-}
-
-.upside-down{
-    transform: rotateX(0.5turn);
 }
