@@ -45,9 +45,7 @@ a{
     text-decoration: none;
 }
 
-a:hover:
-
-a:hover:not(.button a){
+a:hover:not(.button a, .fa-brands){
     text-decoration: underline;
 }
 
@@ -84,14 +82,6 @@ header nav li a, header nav a{
     padding: 3% 5%;
 }
 
-.space-down{
-    padding-bottom: 35px;
-}
-
-.space-top{
-    padding-top: 60px;
-}
-
 #technology .container img{
     width: 100%;
 }
@@ -119,6 +109,25 @@ footer h3{
 footer ul:first-child{
     color: var(--color-contrast);
 }
+
+footer ul li{
+    padding-bottom: 20px;
+}
+
+.flag{
+    width: 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.lang{
+    padding-bottom: 20px;
+}
+
+.lang span{
+    display: inline-block;
+    vertical-align: middle;
+}
 /* utility */
 .container{
     max-width: 1200px;
@@ -136,6 +145,17 @@ footer ul:first-child{
     text-align: center;
 }
 
+.space-down{
+    padding-bottom: 35px;
+}
+
+.space-top{
+    padding-top: 60px;
+}
+
+.space-right{
+    padding-right: 10px;
+}
 /* utility flex */
 .d-flex{
     display: flex;
@@ -169,7 +189,10 @@ footer ul:first-child{
     padding: 6px 12px;
     border-radius: 20px;
     display: inline-block;
-    transition: all 1s;
+    transition: all 0.5s;
+}
+.small-b{
+    font-size: 0.9em;
 }
 
 .button:hover{
