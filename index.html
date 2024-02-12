@@ -13,7 +13,7 @@
 <body>
     <!-- header -->
     <header>
-        <nav class="container d-flex space-between align-items-center">
+        <nav class="container d-flex space-between align-items-center flex-wrap">
             <img src="img/logo.svg" alt="Logo Discord">
             <ul class="d-flex">
                 <li><a href="#">Scarica</a></li>
@@ -24,14 +24,22 @@
             </ul>
             <a class="button bt-bg-secondary bt-color-primary" href="#">Accedi</a>
         </nav>
-        <div id="hero">
-            <div class="small-container">
-                <h1>Il tuo posto per parlare</h1>
-                <p>
-                    Che tu faccia parte di un club scolastico, un gruppo di gamer, comunità artistica mondiale, o semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme, Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso.
+        <div class="d-flex" id="hero">
+            <div class="small-container d-flex align-items-center column justify-center">
+                <h1 class="space-down">Il tuo posto per parlare</h1>
+                <p class="space-down">
+                    Che tu faccia parte di un club scolastico, un gruppo di gamer, comunità artistica mondiale,<br>
+                    o semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme,<br>
+                    Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso.
                 </p>
-                <a class="button bt-bg-secondary bt-color-primary" href="#">Scarica per Mac</a>
-                <a class="button bt-bg-primary bt-color-secondary" href="#">Apri Discord nel tuo browser</a>
+                <div>
+                    <div class="button bt-bg-secondary">
+                        <a class="bt-color-primary" href="#">&#8595; Scarica per Mac</a>
+                    </div>
+                    <div class="button bt-bg-primary">
+                        <a href="#">Apri Discord nel tuo browser</a>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
@@ -43,69 +51,143 @@
                     <img src="img/item1.svg" alt="feature">
                 </div>
                 <div class="right">
-                    <h2>Un luogo a invito con tutto lo spazio necessario per parlare</h2>
+                    <h2 class="space-down">
+                        Un luogo a invito con tutto lo spazio necessario per parlare
+                    </h2>
                     <p>
-                        I server Discord sono organizzati in canali tematici in cui puoi collaborare, condividere o semplicemente parlare della tua giornata senza intasare una chat di gruppo
+                        I server Discord sono organizzati in canali tematici in cui puoi collaborare, condividere o semplicemente parlare della tua giornata senza intasare una chat di gruppo.
                     </p>
                 </div>   
             </div>
         </section>
+        <div class="wave"></div>
         <section id="channel" class="section-bg">
             <div class="container d-flex row-reverse">
                 <div class="left">
                     <img src="img/item2.svg" alt="channel">
                 </div>
                 <div class="right">
-                    <h2>Dove trovarsi è facile</h2>
+                    <h2 class="space-down">
+                        Dove trovarsi è facile
+                    </h2>
                     <p>
                         Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel tuo server possono vedere che sei lì e unirsi istantaneamente senza dover chiamare.
                     </p>
                 </div>
             </div>
         </section>
+        <div class="wave upside-down"></div>
         <section id="community">
             <div class="container d-flex">
                 <div class="left">
                     <img src="img/item3.svg" alt="community">
                 </div>
                 <div class="right">
-                    <h2>
+                    <h2 class="space-down">
                         Da pochi a un fandom
                     </h2>
                     <p>
-                        Dai inizio a una community di qualsiasi dimensione con strumenti di moderazione e accesso ai membri personalizzabile. Concedi ai membri poteri speciali, crea canali privati, e molto  altro.
+                        Dai inizio a una community di qualsiasi dimensione con strumenti di moderazione e accesso ai membri personalizzabile.<br> Concedi ai membri poteri speciali, crea canali privati, e molto  altro.
                     </p>
                 </div>
             </div>
         </section>
+        <div class="wave"></div>
         <section id="technology" class="section-bg">
             <div class="container center">
-                <h2>
+                <h2 class="space-down">
                     Tecnologia affidabile per tenersi in contatto
                 </h2>
                 <p>
-                    Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in un video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condivisione schermo.
+                    Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in un video, guarda <br>gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condivisione schermo.
                 </p>
                 <img src="img/item4-big.svg" alt="">
             </div>
         </section>
         <section id="call-to-action" class="section-bg">
-            <div class="small-container">
-                <h3>
+            <div class="small-container space-down">
+                <h3 class="space-down space-top">
                     Pronto a iniziare la tua avventura?
                 </h3>            
-                <a class="button bt-bg-contrast bt-color-secondary" href="#">Scarica per Mac</a>
+                <a class="button bt-bg-contrast" href="#">&#8595; Scarica per Mac</a>
             </div>
         </section>
     </main>
     <!-- footer -->
     <footer>
-        <div class="top container d-flex space-between" >
-            <div>uno</div>
-            <div>due</div>
-            <div>tre</div>
-            <div>quattro</div>
-            <div>cinque</div>
+        <div class="top container d-flex space-between flex-wrap" >
+            <div>
+                <h3>Il tuo posto per parlare</h3>
+            </div>
+            <div>
+                <ul>
+                    <ul>
+                        <li><strong>Prodotto</strong></li>
+                        <li>
+                            <a href="#">Scarica</a>
+                        </li>
+                        <li>
+                            <a href="#">Perché Discord</a>
+                        </li>
+                        <li>
+                            <a href="#">Nitro</a>
+                        </li>
+                        <li>
+                            <a href="#">Sicurezza</a>
+                        </li>
+                        <li>
+                            <a href="#">Assistenza</a>
+                        </li>
+                    </ul>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <ul>
+                        <li><strong>Compagnia</strong></li>
+                        <li>
+                            <a href="#">Chi siamo</a>
+                        </li>
+                        <li>
+                            <a href="#">Lavora con noi</a>
+                        </li>
+                        <li>
+                            <a href="#">Marchio</a>
+                        </li>
+                        <li>
+                            <a href="#">Redazione</a>
+                        </li>
+                        <li>
+                            <a href="#">Negozio</a>
+                        </li>
+                    </ul>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><strong>Risorse</strong></li>
+                    <li><a href="#">Scarica</a></li>
+                    <li><a href="#">Perché Discord</a></li>
+                    <li><a href="#">Nitro</a></li>
+                    <li><a href="#">Sicurezza</a></li>
+                    <li><a href="#">Assistenza</a></li>
+                    <li><a href="#">Scarica</a></li>
+                    <li><a href="#">Perché Discord</a></li>
+                    <li><a href="#">Nitro</a></li>
+                    <li><a href="#">Sicurezza</a></li>
+                    <li><a href="#">Assistenza</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><strong>Norme</strong></li>
+                    <li><a href="#">Scarica</a></li>
+                    <li><a href="#">Perché Discord</a></li>
+                    <li><a href="#">Nitro</a></li>
+                    <li><a href="#">Sicurezza</a></li>
+                    <li><a href="#">Assistenza</a></li>
+                </ul>
+            </div>
         </div>
         <div class="bottom container d-flex space-between align-items-center">
             <img src="img/logo.svg" alt="Logo Discord">
