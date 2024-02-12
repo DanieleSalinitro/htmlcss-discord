@@ -65,6 +65,10 @@ header nav li a, header nav a{
     padding: 6px 12px;
 }
 
+header nav.container{
+    padding: 20px;
+}
+
 /* main */
 .section-bg{
     background-color: var(--color-section-bg);
@@ -93,6 +97,9 @@ header nav li a, header nav a{
     background-position: top;
 }
 
+#call-to-action{
+    padding-bottom: 80px;
+}
 /* footer */
 footer{
     background-color: var(--color-primary);
@@ -128,6 +135,7 @@ footer ul li{
     display: inline-block;
     vertical-align: middle;
 }
+
 /* utility */
 .container{
     max-width: 1200px;
